@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: rgb(64, 193, 244);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#introduccion {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#introduccion h2 {
+    margin-bottom: 20px;
+}
+
+#recetas {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#recetas article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(64, 193, 244);
+    padding: 20px 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
